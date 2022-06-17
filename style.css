@@ -1,0 +1,294 @@
+/*ALL PAGES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+
+header .menu {
+    display: flex;
+    justify-content: right;
+    }
+
+header .menu .menu-item {
+    padding: 20px;
+    font-size: 20px;
+    }
+
+header .menu a {
+    color: orange;
+    }
+
+header .menu a:hover {
+    color: gray;
+    }
+
+h1 {
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    }
+
+h2 {
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    }
+
+input, textarea, select {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    width: 100%;
+    }
+    
+label {
+    font-size: 20px;
+    }
+
+footer {
+    width:100%;
+    height:60px;
+    background: lightgray;
+    }
+
+#footer-text {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;   
+    }
+    
+/*ABOUT PAGE*/
+
+#page-container {
+    display: flex;
+    position: relative;
+    }
+
+#left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    }
+
+#right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+    margin: 20px;
+    align-items: center;
+    border-style: solid;
+    border-color: orange;
+    border-width: 2px;
+    border-radius: 30px;
+    background-color: lightgray;
+   }
+
+.about-text {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 20px;
+    }
+
+#skills-list {
+    font-size: 20px;
+    padding-bottom: 50px;
+    }
+
+#hobbies-list {
+    font-size: 20px;
+    }
+
+li {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+#contact-button {
+    font-size: 40px;
+    color: orange;
+    margin-top: 50px;
+    padding: 20px 40px;
+    }
+
+#picture {
+    margin-bottom: 50px;
+    }
+    
+/*CONTACT PAGE*/
+
+#contact-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    }
+
+#submit-button {
+    font-size: 20px;
+    color: orange;
+    margin-top: 20px;
+    padding: 10px 30px;
+    }
+
+/*REGISTER PAGE*/
+
+#register-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    }
+
+#register-button {
+    font-size: 20px;
+    color: orange;
+    margin-top: 10px;
+    padding: 10px 30px;
+    }
+
+/*LOGIN PAGE*/
+
+#login-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    }
+
+#sign-in-button {
+    font-size: 20px;
+    color: orange;
+    margin-top: 20px;
+    padding: 10px 30px;
+    }
+
+/*RESPONSIVE MODE*/
+
+@media screen and (max-width:720px) {
+
+    /*All Pages*/
+    #page-container {
+        display: flex;
+        flex-direction: column;
+        }
+
+    header .menu {
+        display: flex;
+        justify-content: center;
+        }
+
+    header .menu .menu-item {
+        padding: 20px 5px;
+        font-size: 15px;
+        }
+    
+    h1 {
+        color: orange;
+        font-size: 30px;
+        text-align: center;
+        }
+
+    h2 {
+        color: orange;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        }
+    
+    #footer-text {
+        font-size: 15px;
+        text-align: center;
+        padding: 20px;
+        }
+    
+    label {
+        font-size: 15px;
+        }
+        
+    input, textarea, select {
+        display: block;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-size: 15px;
+        width: 100%;
+        }
+            
+    /*About Page*/   
+
+    .about-text {
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 0;
+        }
+
+    #contact-button {
+        font-size: 20px;
+        color: orange;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px 40px;
+        }
+
+    #picture {
+        margin-bottom: 30px;
+        }
+   
+    li {
+        font-size: 20px;
+        padding: 5px;
+        }       
+
+    /*Contact Page*/
+
+    #contact-form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 50px;
+        }
+        
+    #submit-button {
+        font-size: 20px;
+        color: orange;
+        margin-top: 20px;
+        padding: 10px 30px;
+        }
+    
+    /*Register Page*/
+
+    #register-form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 50px;
+        }
+    
+    #register-button {
+        font-size: 20px;
+        color: orange;
+        margin-top: 20px;
+        padding: 10px 30px;
+        }
+    
+    /*Login Page*/
+
+    #login-form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 50px;
+        }
+    
+    #login-button {
+        font-size: 20px;
+        color: orange;
+        margin-top: 20px;
+        padding: 10px 30px;
+        }
+    }
